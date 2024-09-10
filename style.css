@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+:root {
+    --bg-color:#E2BFD9 ;
+    --primary-color:#C8A1E0 ;
+    --secondary-color: #AD49E1;
+    --font:"Inria Sans", sans-serif;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+}
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    color: var(--bg-color);
+     font-weight: 700;
+}
